@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Propuestas TIC - Ingeniería TI - UIDE</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Propuestas de Integración Curricular (TIC)</h1>
+        <p>Ingeniería en Tecnologías de la Información | UIDE Loja</p>
+    </header>
+
+    <div class="container">
+        <div class="tabs">
+            <div class="tab" onclick="showTab(0)">1. Deepfakes</div>
+            <div class="tab" onclick="showTab(1)">2. IA Avatar GAD</div>
+            <div class="tab active" onclick="showTab(2)">3. SaaS TiendaGenius</div>
+        </div>
+
+        <!-- Tab 0: Detector de Deepfakes (Investigación & Expansión) -->
+        <div id="tab0" class="content-card">
+            <img src="forensic_ai_1773625695814.png" alt="Deepfakes" class="card-header-img">
+            <div class="card-body">
+                <span class="badge"><i class="fas fa-shield-halved"></i> Ciberseguridad / IA Forense</span>
+                <h2>Detector de Deepfakes</h2>
+                <p><strong>Tema:</strong> "Plataforma Modular de Peritaje Digital mediante Arquitectura Trinity
+                    Judgment"</p>
+
+                <h3><i class="fas fa-triangle-exclamation"></i> Problema a resolver</h3>
+                <p>Hoy es muy fácil crear fotos o videos falsos (Deepfakes) para engañar o dañar a las personas. No
+                    existen suficientes herramientas locales que ayuden a la policía o a los ciudadanos a saber
+                    rápidamente si un video es real o manipulado por una computadora.</p>
+
+                <h3><i class="fas fa-bullseye"></i> Objetivo General</h3>
+                <p>Crear una herramienta capaz de analizar archivos multimedia (fotos, videos y audio) para detectar
+                    pistas invisibles que deja la Inteligencia Artificial, ayudando así a confirmar qué es real y qué es
+                    falso.</p>
+
+                <h3><i class="fas fa-list-check"></i> Objetivos Específicos</h3>
+                <ul>
+                    <li>Implementar modelos matemáticos que encuentren errores en los píxeles y en las frecuencias del
+                        archivo.</li>
+                    <li>Refinar la detección en imágenes con alta compresión y diversos motores generativos (GANs,
+                        Ultrarrealismo).</li>
+                    <li>Integrar un chatbot que explique de forma sencilla por qué se considera que un contenido es
+                        falso.</li>
+                    <li>Desarrollar una API fácil de integrar para cualquier sistema que necesite esta funcionalidad.
+                    </li>
+                <h3><i class="fas fa-expand"></i> Alcance</h3>
+                <p>Detección multiplataforma para Imágenes, Video y grabaciones de Voz.</p>
+
+                <div class="future-expansion" style="margin-top: 25px; background: #fffcf0; padding: 20px; border-radius: 12px; border: 1px solid #fbd38d;">
+                    <h3 style="margin-top: 0; color: #c05621; font-size: 1.1rem;"><i class="fas fa-flask"></i> Posible Integración: Módulo Deepnudes</h3>
+                    <p style="font-size: 0.95rem; color: #6b46c1; font-weight: 500;">Estado: En evaluación para futura implementación.</p>
+                    
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px; font-size: 0.85rem; margin-top: 10px;">
+                        <div style="background: white; padding: 10px; border-radius: 8px; border-left: 4px solid #48bb78;">
+                            <strong style="color: #2f855a;">Ventajas:</strong>
+                            <p style="margin: 5px 0;">Alta relevancia social, ayuda directa a víctimas de acoso y especialización técnica única.</p>
+                        </div>
+                        <div style="background: white; padding: 10px; border-radius: 8px; border-left: 4px solid #e53e3e;">
+                            <strong style="color: #c53030;">Contras:</strong>
+                            <p style="margin: 5px 0;">Dificultad técnica extrema en texturas y requiere un manejo de datos bajo estricta ética legal.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <h3><i class="fas fa-microchip"></i> Stack Tecnológico</h3>
+                <div class="tech-stack">
+                    <div class="tech-item"><span class="tech-label"><i class="fas fa-server"></i> Backend</span><span
+                            class="tech-value">Flask (Python)</span></div>
+                    <div class="tech-item"><span class="tech-label"><i class="fas fa-desktop"></i> Frontend</span><span
+                            class="tech-value">React 18 + Vite</span></div>
+                    <div class="tech-item"><span class="tech-label"><i class="fas fa-brain"></i> IA Core</span><span
+                            class="tech-value">DeepSeek-R1 + CLIP</span></div>
+                    <div class="tech-item"><span class="tech-label"><i class="fas fa-project-diagram"></i>
+                            Especial</span><span class="tech-value">Trinity Judgment System</span></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tab 1: IA Avatar GAD -->
+        <div id="tab1" class="content-card">
+            <img src="avatar_ia_gad_1773625711516.png" alt="Asistente Virtual Avatar IA" class="card-header-img">
+            <div class="card-body">
+                <span class="badge"><i class="fas fa-landmark"></i> Gobierno Digital</span>
+                <h2>Asistente Virtual IA - GAD Loja</h2>
+                <p><strong>Tema:</strong> "Humano Digital para la Automatización de Servicios Ciudadanos y Gobierno
+                    Electrónico"</p>
+
+                <h3><i class="fas fa-triangle-exclamation"></i> Problema a resolver</h3>
+                <p>Mucha gente tiene que ir al municipio y hacer filas largas para resolver dudas básicas. Además,
+                    entender las leyes y trámites municipales en internet suele ser muy confuso para el ciudadano común.
+                </p>
+
+                <h3><i class="fas fa-bullseye"></i> Objetivo General</h3>
+                <p>Desarrollar un asistente con rostro humano que "hable" con los ciudadanos. Este asistente usará
+                    Inteligencia Artificial para responder dudas sobre trámites municipales de forma clara y rápida.</p>
+
+                <h3><i class="fas fa-list-check"></i> Objetivos Específicos</h3>
+                <ul>
+                    <li>Integración Segura mediante API Gateway para la Consulta de Datos Ciudadanos
+                    </li>
+                    <li>Integrar un rostro digital animado que hable de forma natural con el ciudadano.</li>
+                    <li>Asegurar que toda la tecnología funcione en servidores propios para proteger los datos de la
+                        ciudad.</li>
+                </ul>
+
+                <h3><i class="fas fa-expand"></i> Alcance</h3>
+                <p>El asistente está capacitado para gestionar inicialmente estos 5 trámites clave:</p>
+                <div class="scope-grid">
+                    <div class="scope-item"><i class="fas fa-file-invoice-dollar"></i> Consulta de deudas prediales</div>
+                    <div class="scope-item"><i class="fas fa-certificate"></i> Solicitud de certificado de no adeudar</div>
+                    <div class="scope-item"><i class="fas fa-trowel-bricks"></i> Información sobre permisos de construcción</div>
+                    <div class="scope-item"><i class="fas fa-shop"></i> Registro de nuevos negocios</div>
+                    <div class="scope-item"><i class="fas fa-calendar-check"></i> Consulta de turnos y citas</div>
+                </div>
+
+                <h3><i class="fas fa-microchip"></i> Stack Tecnológico</h3>
+                <div class="tech-stack">
+                    <div class="tech-item"><span class="tech-label"><i class="fas fa-server"></i> Backend</span><span
+                            class="tech-value">FastAPI (Python)</span></div>
+                    <div class="tech-item"><span class="tech-label"><i class="fas fa-desktop"></i> Frontend</span><span
+                            class="tech-value">React + Three.js</span></div>
+                    <div class="tech-item"><span class="tech-label"><i class="fas fa-brain"></i> IA Core</span><span
+                            class="tech-value">Llama 3 + RAG</span></div>
+                    <div class="tech-item"><span class="tech-label"><i class="fas fa-comment-dots"></i>
+                            Especial</span><span class="tech-value">Wav2Lip (Lip-Sync)</span></div>
+                    <div class="tech-item"><span class="tech-label"><i class="fas fa-database"></i> Database</span><span
+                            class="tech-value">ChromaDB (Vectorial)</span></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tab 2: TiendaGenius (Active by Default) -->
+        <div id="tab2" class="content-card active">
+            <img src="tienda_genius_1773625729537.png" alt="TiendaGenius System" class="card-header-img">
+            <div class="card-body">
+                <span class="badge"><i class="fas fa-store"></i> SaaS / Desarrollo de Software</span>
+                <h2>TiendaGenius (SaaS)</h2>
+                <p><strong>Tema:</strong> "Ecosistema SaaS para la Gestión de Inventarios y Auditoría de Prevención de
+                    Fugas"</p>
+
+                <h3><i class="fas fa-triangle-exclamation"></i> Problema a resolver</h3>
+                <p>Los dueños de pequeñas tiendas suelen llevar sus cuentas a mano, lo que provoca pérdida de dinero,
+                    falta de control en los inventarios y olvidos en los pagos de clientes que "fían".</p>
+
+                <h3><i class="fas fa-bullseye"></i> Objetivo General</h3>
+                <p>Crear un sistema inteligente y fácil de usar en la nube donde los tenderos puedan registrar sus
+                    ventas, controlar cuánto producto les queda y ver exactamente cuánto dinero ganan cada día.</p>
+
+                <h3><i class="fas fa-list-check"></i> Objetivos Específicos</h3>
+                <ul>
+                    <li>Implementar un registro de ventas que no se pueda borrar ni alterar (seguridad para el dueño).
+                    </li>
+                    <li>Agregar funcionalidad de Administración de fiado con límites, abonos y recordatorios</li>
+                    <li>Funciona en cualquier dispositivo mediante PWA (web, celular, tableta)</li>
+                </ul>
+
+                <h3><i class="fas fa-expand"></i> Alcance</h3>
+                <p>Ventas rápidas, gestión de productos que se venden por peso (como granos), registro de "fiados" y
+                    control de caja.</p>
+
+                <h3><i class="fas fa-microchip"></i> Stack Tecnológico</h3>
+                <div class="tech-stack">
+                    <div class="tech-item"><span class="tech-label"><i class="fas fa-server"></i> Backend</span><span
+                            class="tech-value">Laravel 11 (PHP)</span></div>
+                    <div class="tech-item"><span class="tech-label"><i class="fas fa-desktop"></i> Frontend</span><span
+                            class="tech-value">React 18 + Tailwind</span></div>
+                    <div class="tech-item"><span class="tech-label"><i class="fas fa-link"></i> IA Core</span><span
+                            class="tech-value">Hash Chain (Auditoría)</span></div>
+                    <div class="tech-item"><span class="tech-label"><i class="fas fa-users-gear"></i>
+                            Especial</span><span class="tech-value">Tenancy for Laravel</span></div>
+                    <div class="tech-item"><span class="tech-label"><i class="fas fa-database"></i> Database</span><span
+                            class="tech-value">PostgreSQL</span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer-info">
+        <p><strong>Presentado por:</strong> Estudiante de Ingeniería en TI | UIDE</p>
+        <p><strong>Cronograma:</strong> Marzo - Agosto 2026 | <strong>Entrega:</strong> Junio 2026</p>
+        <p><em>Propuestas diseñadas bajo cumplimiento de normativas institucionales.</em></p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
