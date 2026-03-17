@@ -20,7 +20,11 @@
         <div class="tabs">
             <div class="tab" onclick="showTab(0)">1. Deepfakes</div>
             <div class="tab" onclick="showTab(1)">2. IA Avatar GAD</div>
-            <div class="tab active" onclick="showTab(2)">3. SaaS TiendaGenius</div>
+            <div class="tab" onclick="showTab(2)">3. SaaS TiendaGenius</div>
+            <div class="tab" onclick="showTab(3)">4. Guía Turística Loja</div>
+            <div class="tab" onclick="showTab(4)">5. Smart Governance</div>
+            <div class="tab" onclick="showTab(5)">6. Android RAT PoC</div>
+            <div class="tab" onclick="showTab(6)">7. Detección Deepnudes</div>
         </div>
 
         <!-- Tab 0: Detector de Deepfakes (Investigación  Expansión) -->
@@ -29,8 +33,9 @@
             <div class="card-body">
                 <span class="badge"><i class="fas fa-shield-halved"></i> Ciberseguridad / IA Forense</span>
                 <h2>Detector de Deepfakes</h2>
-                <p><strong>Tema:</strong> "Plataforma Modular de Peritaje Digital mediante Arquitectura Trinity
-                    Judgment"</p>
+                <p><strong>Tema:</strong> Diseñar y evaluar la eficacia de la arquitectura 'Trinity Judgment'
+                    mediante el desarrollo de un prototipo funcional para la detección
+                    multimodal de Deepfakes en imágenes, audio y video.</p>
 
                 <h3><i class="fas fa-triangle-exclamation"></i> Problema a resolver</h3>
                 <p>Hoy es muy fácil crear fotos o videos falsos (Deepfakes) para engañar o dañar a las personas. No
@@ -38,58 +43,34 @@
                     rápidamente si un video es real o manipulado por una computadora.</p>
 
                 <h3><i class="fas fa-bullseye"></i> Objetivo General</h3>
-                <p>Crear una herramienta capaz de analizar archivos multimedia (fotos, videos y audio) para detectar
-                    pistas invisibles que deja la Inteligencia Artificial, ayudando así a confirmar qué es real y qué es
-                    falso.</p>
+                <p>Implementar una Aplicacion web de detección de deepfakes basado en la arquitectura Trinity Judgment
+                    para
+                    identificar anomalías en imágenes, audio y video, demostrando su eficacia como herramienta de apoyo
+                    en la verificación de integridad de archivos multimedia.</p>
 
                 <h3><i class="fas fa-list-check"></i> Objetivos Específicos</h3>
                 <ul>
-                    <li>Implementar modelos matemáticos que encuentren errores en los píxeles y en las frecuencias del
-                        archivo.</li>
-                    <li>Refinar la detección en imágenes con alta compresión y diversos motores generativos (GANs,
-                        Ultrarrealismo).</li>
-                    <li>Integrar un chatbot que explique de forma sencilla por qué se considera que un contenido es
-                        falso.</li>
-                    <li>Desarrollar una API fácil de integrar para cualquier sistema que necesite esta funcionalidad.
-                    </li>
-                    <h3><i class="fas fa-expand"></i> Alcance</h3>
-                    <p>Detección multiplataforma para Imágenes, Video y grabaciones de Voz.</p>
+                    <li>Diseñar los módulos de la arquitectura Trinity Judgment</li>
+                    <li>Desarrollar un sistema de Juicio Final que combine los resultados de los tres módulos para
+                        emitir un porcentaje de probabilidad de manipulación.</li>
+                    <li>Implementar un ChatBot para explicar los resultados obtenidos.</li>
+                    <li>Evaluar la precisión de la arquitectura frente a un dataset de contenido real y sintético.</li>
+                </ul>
+                <h3><i class="fas fa-expand"></i> Alcance</h3>
+                <p>Detección multiplataforma para Imágenes, Video y grabaciones de Voz.</p>
 
-                    <div class="future-expansion"
-                        style="margin-top: 25px; background: #fffcf0; padding: 20px; border-radius: 12px; border: 1px solid #fbd38d;">
-                        <h3 style="margin-top: 0; color: #c05621; font-size: 1.1rem;"><i class="fas fa-flask"></i>
-                            Posible Integración: Módulo Deepnudes</h3>
-                        <p style="font-size: 0.95rem; color: #6b46c1; font-weight: 500;">Estado: En evaluación para
-                            futura implementación.</p>
 
-                        <div
-                            style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px; font-size: 0.85rem; margin-top: 10px;">
-                            <div
-                                style="background: white; padding: 10px; border-radius: 8px; border-left: 4px solid #48bb78;">
-                                <strong style="color: #2f855a;">Ventajas:</strong>
-                                <p style="margin: 5px 0;">Alta relevancia social, ayuda directa a víctimas de acoso y
-                                    especialización técnica única.</p>
-                            </div>
-                            <div
-                                style="background: white; padding: 10px; border-radius: 8px; border-left: 4px solid #e53e3e;">
-                                <strong style="color: #c53030;">Contras:</strong>
-                                <p style="margin: 5px 0;">Dificultad técnica extrema en texturas y requiere un manejo de
-                                    datos bajo estricta ética legal.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <h3><i class="fas fa-microchip"></i> Stack Tecnológico</h3>
-                    <div class="tech-stack">
-                        <div class="tech-item"><span class="tech-label"><i class="fas fa-server"></i>
-                                Backend</span><span class="tech-value">Flask (Python)</span></div>
-                        <div class="tech-item"><span class="tech-label"><i class="fas fa-desktop"></i>
-                                Frontend</span><span class="tech-value">React 18 + Vite</span></div>
-                        <div class="tech-item"><span class="tech-label"><i class="fas fa-brain"></i> IA Core</span><span
-                                class="tech-value">DeepSeek-R1 + CLIP</span></div>
-                        <div class="tech-item"><span class="tech-label"><i class="fas fa-project-diagram"></i>
-                                Especial</span><span class="tech-value">Trinity Judgment System</span></div>
-                    </div>
+                <h3><i class="fas fa-microchip"></i> Stack Tecnológico</h3>
+                <div class="tech-stack">
+                    <div class="tech-item"><span class="tech-label"><i class="fas fa-server"></i>
+                            Backend</span><span class="tech-value">Flask (Python)</span></div>
+                    <div class="tech-item"><span class="tech-label"><i class="fas fa-desktop"></i>
+                            Frontend</span><span class="tech-value">React 18 + Vite</span></div>
+                    <div class="tech-item"><span class="tech-label"><i class="fas fa-brain"></i> IA Core</span><span
+                            class="tech-value">DeepSeek-R1 + CLIP</span></div>
+                    <div class="tech-item"><span class="tech-label"><i class="fas fa-project-diagram"></i>
+                            Especial</span><span class="tech-value">Trinity Judgment System</span></div>
+                </div>
             </div>
         </div>
 
@@ -190,6 +171,146 @@
                             Especial</span><span class="tech-value">Tenancy for Laravel</span></div>
                     <div class="tech-item"><span class="tech-label"><i class="fas fa-database"></i> Database</span><span
                             class="tech-value">PostgreSQL</span></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tab 3: Guía Turística Loja -->
+        <div id="tab3" class="content-card">
+            <img src="loja_turismo_app_1773757136877.png" alt="Guía Turística Loja" class="card-header-img">
+            <div class="card-body">
+                <span class="badge"><i class="fas fa-map-location-dot"></i> Desarrollo Móvil / Turismo</span>
+                <h2>Guía Turística Loja</h2>
+                <p><strong>Tema:</strong> "Desarrollo de una Aplicación Móvil Integral de Guía Turística para la ciudad de Loja"</p>
+
+                <h3><i class="fas fa-triangle-exclamation"></i> Problema a resolver</h3>
+                <p>Actualmente, la información técnica sobre atractivos, servicios turísticos, rutas de transporte y eventos de la ciudad de Loja solo se encuentra disponible de forma física en el Municipio o dispersa en múltiples fuentes no oficiales, lo que dificulta la experiencia de visitantes nacionales y extranjeros.</p>
+
+                <h3><i class="fas fa-bullseye"></i> Objetivo General</h3>
+                <p>Diseñar e implementar una aplicación móvil que centralice toda la información turística relevante de la ciudad de Loja (atractivos, restaurantes con precios, hoteles, rutas de buses y eventos) para facilitar el acceso inmediato y confiable a los servicios de la ciudad.</p>
+
+                <h3><i class="fas fa-list-check"></i> Objetivos Específicos</h3>
+                <ul>
+                    <li>Digitalizar y centralizar la base de datos de atractivos y servicios turísticos del Municipio de Loja.</li>
+                    <li>Implementar funciones de geolocalización para la navegación interactiva hacia puntos de interés y rutas de buses.</li>
+                    <li>Desarrollar un catálogo dinámico con menús de restaurantes, tarifas de hoteles y calendario de eventos.</li>
+                    <li>Evaluar la usabilidad de la herramienta mediante pruebas con usuarios reales en centros de información turística.</li>
+                </ul>
+
+                <h3><i class="fas fa-expand"></i> Alcance</h3>
+                <p>Información completa de hoteles y restaurantes con precios, mapas interactivos de rutas de transporte urbano y agenda actualizada de eventos culturales y festividades.</p>
+
+                <h3><i class="fas fa-microchip"></i> Stack Tecnológico</h3>
+                <div class="tech-stack">
+                    <div class="tech-item"><span class="tech-label"><i class="fas fa-mobile-screen-button"></i> Mobile</span><span class="tech-value">Flutter / React Native</span></div>
+                    <div class="tech-item"><span class="tech-label"><i class="fas fa-server"></i> Backend</span><span class="tech-value">Node.js (Express)</span></div>
+                    <div class="tech-item"><span class="tech-label"><i class="fas fa-database"></i> Database</span><span class="tech-value">Firebase Realtime DB</span></div>
+                    <div class="tech-item"><span class="tech-label"><i class="fas fa-map-marked-alt"></i> Especial</span><span class="tech-value">Google Maps SDK</span></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tab 4: Smart Governance Loja -->
+        <div id="tab4" class="content-card">
+            <img src="smart_governance_loja_1773757769688.png" alt="Smart Governance Loja" class="card-header-img">
+            <div class="card-body">
+                <span class="badge"><i class="fas fa-city"></i> Smart City / GovTech</span>
+                <h2>Smart Governance Loja</h2>
+                <p><strong>Tema:</strong> "Diseño e implementación de una plataforma de Smart Governance para la gestión de demandas tecnológicas y oferta de startups en el cantón Loja: Caso Marketplace Digital."</p>
+
+                <h3><i class="fas fa-triangle-exclamation"></i> Problema a resolver</h3>
+                <p>Existe una desconexión entre la administración pública y el ecosistema emprendedor. El GAD Municipal identifica necesidades críticas (tránsito, recolección de basura, servicios) pero carece de un canal ágil para que las startups locales propongan soluciones innovadoras.</p>
+
+                <h3><i class="fas fa-bullseye"></i> Objetivo General</h3>
+                <p>Desarrollar una plataforma web de "Escenarios Digitales" que conecte los requerimientos tecnológicos del GAD Municipal de Loja con el catálogo de soluciones de las startups locales, fomentando la transformación digital y el talento lojano.</p>
+
+                <h3><i class="fas fa-list-check"></i> Objetivos Específicos</h3>
+                <ul>
+                    <li>Diseñar el módulo de 'Zona de Demanda' para la publicación de problemas institucionales específicos (UCOT, Higiene, etc.).</li>
+                    <li>Desarrollar un catálogo categorizado ('Zona de Oferta') para la exposición de productos SaaS, IoT e IA locales.</li>
+                    <li>Implementar un algoritmo de 'Matchmaking' automático basado en categorías, presupuesto y viabilidad técnica.</li>
+                    <li>Validar la plataforma mediante un despliegue piloto con escenarios reales de gestión municipal en la ciudad de Loja.</li>
+                </ul>
+
+                <h3><i class="fas fa-expand"></i> Alcance</h3>
+                <p>Marketplace B2G (Business to Government), sistema de verificación de perfiles, gestión de cronogramas de implementación y dashboard de métricas de impacto digital.</p>
+
+                <h3><i class="fas fa-microchip"></i> Stack Tecnológico</h3>
+                <div class="tech-stack">
+                    <div class="tech-item"><span class="tech-label"><i class="fas fa-server"></i> Backend</span><span class="tech-value">Django (Microservicios)</span></div>
+                    <div class="tech-item"><span class="tech-label"><i class="fas fa-desktop"></i> Frontend</span><span class="tech-value">Next.js 14 + Shadcn UI</span></div>
+                    <div class="tech-item"><span class="tech-label"><i class="fas fa-code-merge"></i> Especial</span><span class="tech-value">Smart Match Engine (Algorithmic)</span></div>
+                    <div class="tech-item"><span class="tech-label"><i class="fas fa-chart-line"></i> Dashboard</span><span class="tech-value">Power BI / Chart.js</span></div>
+                    <div class="tech-item"><span class="tech-label"><i class="fas fa-database"></i> Database</span><span class="tech-value">MariaDB + Redis</span></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tab 5: Android RAT PoC -->
+        <div id="tab5" class="content-card">
+            <img src="android_rat_poc_1773758273230.png" alt="Android RAT PoC" class="card-header-img">
+            <div class="card-body">
+                <span class="badge"><i class="fas fa-user-secret"></i> Ciberseguridad / Mobile Security</span>
+                <h2>Android RAT PoC</h2>
+                <p><strong>Tema:</strong> "Desarrollo de una Prueba de Concepto de un RAT en Android para la identificación de brechas de seguridad en permisos de usuario."</p>
+
+                <h3><i class="fas fa-triangle-exclamation"></i> Problema a resolver</h3>
+                <p>Muchos usuarios otorgan permisos amplios a aplicaciones sin entender los riesgos reales. Existe una falta de estudios locales detallados sobre cómo el malware moderno abusa de permisos críticos (Accesibilidad, Superposición) para comprometer la privacidad del ciudadano.</p>
+
+                <h3><i class="fas fa-bullseye"></i> Objetivo General</h3>
+                <p>Desarrollar un prototipo de troyano de acceso remoto (RAT) para Android bajo un entorno controlado, con el fin de identificar y demostrar las brechas de seguridad actuales en la gestión de permisos y proponer medidas de mitigación.</p>
+
+                <h3><i class="fas fa-list-check"></i> Objetivos Específicos</h3>
+                <ul>
+                    <li>Analizar el modelo de permisos de Android y las vulnerabilidades conocidas en los niveles de API más recientes.</li>
+                    <li>Diseñar y desarrollar un prototipo de RAT (sin fines maliciosos) para la extracción de metadatos (contactos, ubicación) en escenarios de prueba.</li>
+                    <li>Evaluar el abuso de los "Servicios de Accesibilidad" y su impacto en la suplantación de la voluntad del usuario.</li>
+                    <li>Elaborar un informe de recomendaciones técnicas para desarrolladores y una guía de seguridad para usuarios finales.</li>
+                </ul>
+
+                <h3><i class="fas fa-expand"></i> Alcance</h3>
+                <p>Prototipo funcional de RAT, servidor de Comando y Control (C2) para la gestión remota y matriz de riesgos basada en la escalada de permisos en dispositivos Android.</p>
+
+                <h3><i class="fas fa-microchip"></i> Stack Tecnológico</h3>
+                <div class="tech-stack">
+                    <div class="tech-item"><span class="tech-label"><i class="fab fa-android"></i> Mobile</span><span class="tech-value">Kotlin / Java (Native)</span></div>
+                    <div class="tech-item"><span class="tech-label"><i class="fas fa-server"></i> C2 Server</span><span class="tech-value">Python (FastAPI)</span></div>
+                    <div class="tech-item"><span class="tech-label"><i class="fas fa-bug"></i> Análisis</span><span class="tech-value">ADB / Metasploit Frame.</span></div>
+                    <div class="tech-item"><span class="tech-label"><i class="fas fa-shield-virus"></i> Seguridad</span><span class="tech-value">Frida / Burp Suite</span></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tab 6: Detección Deepnudes -->
+        <div id="tab6" class="content-card">
+            <img src="synthetic_human_forensics_1773759236792.png" alt="Detección Deepnudes" class="card-header-img">
+            <div class="card-body">
+                <span class="badge"><i class="fas fa-user-shield"></i> Ciberseguridad / IA Forense</span>
+                <h2>Detección de Deepnudes</h2>
+                <p><strong>Tema:</strong> "Desarrollo de una herramienta web para la detección de Deepnudes mediante el análisis de distorsión anatómica y física en medios digitales."</p>
+
+                <h3><i class="fas fa-triangle-exclamation"></i> Problema a resolver</h3>
+                <p>La proliferación de contenido íntimo sintético no consentido representa una grave violación flagrante a la privacidad y dignidad. Las herramientas actuales de detección generalista suelen fallar en identificar las sutiles distorsiones anatómicas propias de la síntesis corporal por IA.</p>
+
+                <h3><i class="fas fa-bullseye"></i> Objetivo General</h3>
+                <p>Implementar una aplicación web que permita identificar contenido íntimo generado por IA (Deepnudes) mediante la integración de modelos de visión artificial especializados en la detección de anomalías corporales y físicas.</p>
+
+                <h3><i class="fas fa-list-check"></i> Objetivos Específicos</h3>
+                <ul>
+                    <li>Configurar el modelo ViT-HD para la detección de errores anatómicos (extremidades, piel y estructura ósea) en imágenes sospechosas.</li>
+                    <li>Integrar el motor VidGuard-R1 para el análisis rápido de inconsistencias físicas en videos cortos.</li>
+                    <li>Desarrollar una interfaz web intuitiva que permita cargar el archivo y visualizar un reporte simplificado de autenticidad.</li>
+                </ul>
+
+                <h3><i class="fas fa-expand"></i> Alcance</h3>
+                <p>Análisis forense de imágenes estáticas y clips de video con enfoque en fidelidad dérmica y coherencia ósea-estructural.</p>
+
+                <h3><i class="fas fa-microchip"></i> Stack Tecnológico</h3>
+                <div class="tech-stack">
+                    <div class="tech-item"><span class="tech-label"><i class="fas fa-eye"></i> IA Vision</span><span class="tech-value">ViT-HD / VidGuard-R1</span></div>
+                    <div class="tech-item"><span class="tech-label"><i class="fas fa-server"></i> Backend</span><span class="tech-value">FastAPI (Python)</span></div>
+                    <div class="tech-item"><span class="tech-label"><i class="fas fa-desktop"></i> Frontend</span><span class="tech-value">React 18 + Tailwind CSS</span></div>
+                    <div class="tech-item"><span class="tech-label"><i class="fas fa-brain"></i> Engine</span><span class="tech-value">DeepSeek Vision</span></div>
                 </div>
             </div>
         </div>
